@@ -1,0 +1,36 @@
+<!Doctype html>
+<head>
+<title>registration page </title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="body">
+<span class="title"></span>
+<div class="register">
+<h1>Registration Form...</h1><br><br><br>
+Name:&nbsp;
+<input class="text-line" placeholder="Enter your name" name="reg1" type="text" pattern="[A-Za-z]{6,20}"><br><br>
+E-Mail:&nbsp;
+<input class="text-line" type="email"  pattern="+@gmail.com{12,30}" placeholder="Enter your email" name="reg4"><br><br>
+Address:&nbsp;
+<input class="text-line" name="x" id="p" placeholder="enter your full address"><br><br>
+Gender:&nbsp;
+<input type="radio" name="gender" value="male" checked>male
+&nbsp;<input type="radio" name="gender" value="female">female
+&nbsp;<input type="radio" name="gender" value="other">other<br><br>
+DOB:&nbsp;&nbsp;
+<input class="text-line" type="date" placeholder="ex:-2000-12-12" name="reg5"><br><br>
+Graduation:&nbsp;
+          <select>
+               <option value="be/b.tech">BE/B.Tech</option>
+            </select></br><br>
+        Technologies:&nbsp:
+           <input type="checkbox" name="check" value="c" checked>c
+            <input type="checkbox" name="check" value="cp">c++
+            <input type="checkbox"  name="check" value="j" >java 
+            <input type="checkbox"  name="check" value="s">js
+<br><br>
+<input class="button" type="submit" onload="alert('</php echo 'successfull' ?>')" style="margin-left:30px;margin-top:20px" name="reg" value="register">&nbsp;&nbsp;&nbsp;&nbsp;
+<input class="button" type="button" onClick="location.href='project.html'" value="reset">
+</div>
+</body>
+</html>
