@@ -4,13 +4,14 @@ body {
 	background-attachment:fixed;
 	background-repeat:no-repeat;
 	background-position:fixed;
-	background-size: 1180px 1000px;
+  background-size: 1180px 1200px;
 }
 .register{
+
    margin:auto;
    width:300px;
-   box-shadow:0px 10px 18px 0px rgba(0,0,0,0.9);
-   padding:80px 40px;
+   box-shadow:0px 10px 28px 0px rgba(0,0,0,0.9);
+   padding:80px 50px;
    margin-top:50px;
    background:linear-gradient(top, lightpink 0%, #ffb6c1 100%);
     background:-webkit-linear-gradient(top, lightpink 0%, #ffb6c1 100%);
@@ -21,7 +22,7 @@ h1{
   color:#ef3d40;
   text-align:center;
 }
-.text-line {
+.text{
     background-color: white;
     color: black;
     outline: none;
@@ -31,8 +32,6 @@ h1{
     border-right: none;
     border-bottom: solid black 1px;
     padding: 3px 10px;
-    maxlength="20;
-    minlength="6";
 }
 .title{
 	color:white;
@@ -51,6 +50,8 @@ h1{
   border: none;
   border-radius: 13px;
   box-shadow: 0 7px #999;
+  margin-left:30px;
+  margin-top:20px;
 }
 
 .button:hover {background-color: #3e8e41}
